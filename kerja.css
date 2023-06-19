@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins';
+}
+
+ul.navbar--nav{
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+
+p.mt-5{
+    font-size: 18px;
+}
+
+
+
+.col-2{
+ display: inline-block;
+ margin-right: 70px;
+ margin-top: 100px;
+}
+
+.tengah{
+width:150px;
+height: 50px;
+box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+@media screen and (max-width: 576px) {
+    .col-2{
+        margin-right: 50px;
+        display: block;
+        margin-left: 130px;
+    }
+
+    .tengah{
+        width: 150px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+
+    .keterangan{
+        font-size:12px;
+    }
+
+    .hero{
+        width:50px;
+    }
+
+}
